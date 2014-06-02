@@ -5,4 +5,7 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 
+    <!-- Activties -->
+    <string name="feature_list">Feature List</string>
+
 </resources>

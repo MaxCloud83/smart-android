@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="featureList">
+        <item>Show Devie Info</item>
+        <item>Get Installed Application List</item>
+        <item>come soon...</item>
+        <item>come soon...</item>
+        <item>come soon...</item>
+        <item>come soon...</item>
+        <item>come soon...</item>
+    </array>
+
+</resources>

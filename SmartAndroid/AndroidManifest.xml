@@ -23,6 +23,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.iplus.smart.FeatureList"
+            android:label="@string/feature_list" />
         <activity android:name="com.iplus.smart.MainActivity" >
         </activity>
     </application>

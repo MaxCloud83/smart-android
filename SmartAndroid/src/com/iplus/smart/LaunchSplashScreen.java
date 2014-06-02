@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 public class LaunchSplashScreen extends Activity {
-    private final int SPLASH_DISPLAY_LENGHT = 1000;
+    private final int SPLASH_DISPLAY_LENGHT = 2000;
 
     /** Called when the activity is first created. */
     @Override
@@ -22,9 +22,9 @@ public class LaunchSplashScreen extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                /* Create an Intent that will start the Menu-Activity. */
-                Intent mainIntent = new Intent(LaunchSplashScreen.this, MainActivity.class);
-                LaunchSplashScreen.this.startActivity(mainIntent);
+                /* Create an Intent that will start the FeatureList-Activity. */
+                Intent intent = new Intent(LaunchSplashScreen.this, FeatureList.class);
+                LaunchSplashScreen.this.startActivity(intent);
                 LaunchSplashScreen.this.finish();
             }
         }, SPLASH_DISPLAY_LENGHT);

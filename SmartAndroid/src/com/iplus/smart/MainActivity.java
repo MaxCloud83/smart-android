@@ -36,8 +36,8 @@ public class MainActivity extends Activity {
         // パッケージ情報をリストビューに追記
         for (ApplicationInfo ai : list) {
             arrayAdapter.add(ai.packageName);
-            listView.setAdapter(arrayAdapter);
         }
+        listView.setAdapter(arrayAdapter);
     }
 
 }
