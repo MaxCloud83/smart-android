@@ -16,7 +16,7 @@ public class DeviceInfo extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.device_info);
 
-        // fetch listview object
+        // fetch ListView object
         this.deviceInfoListView = (ListView) findViewById(R.id.DeviceInfoListView);
 
         // create ArrayAdapter for listView

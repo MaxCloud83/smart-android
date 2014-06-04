@@ -29,8 +29,9 @@
         <activity
             android:name="com.iplus.smart.DeviceInfo"
             android:label="@string/device_info" />
-        <activity android:name="com.iplus.smart.MainActivity" >
-        </activity>
+        <activity
+            android:name="com.iplus.smart.ApplicationList"
+            android:label="@string/application_list" />
     </application>
 
 </manifest>
