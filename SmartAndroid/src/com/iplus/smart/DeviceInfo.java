@@ -24,14 +24,14 @@ public class DeviceInfo extends Activity {
                 android.R.layout.simple_list_item_1);
 
         arrayAdapter.add("BOARD:" + Build.BOARD);
-        arrayAdapter.add("BOOTLOADER:" + Build.BOOTLOADER); // Android 1.6未対応
+        arrayAdapter.add("BOOTLOADER:" + Build.BOOTLOADER); // Android 1.6 later
         arrayAdapter.add("BRAND:" + Build.BRAND);
         arrayAdapter.add("CPU_ABI:" + Build.CPU_ABI);
-        arrayAdapter.add("CPU_ABI2:" + Build.CPU_ABI2); // Android 1.6未対応
+        arrayAdapter.add("CPU_ABI2:" + Build.CPU_ABI2); // Android 1.6 later
         arrayAdapter.add("DEVICE:" + Build.DEVICE);
         arrayAdapter.add("DISPLAY:" + Build.DISPLAY);
         arrayAdapter.add("FINGERPRINT:" + Build.FINGERPRINT);
-        arrayAdapter.add("HARDWARE:" + Build.HARDWARE); // Android 1.6未対応
+        arrayAdapter.add("HARDWARE:" + Build.HARDWARE); // Android 1.6 later
         arrayAdapter.add("HOST:" + Build.HOST);
         arrayAdapter.add("ID:" + Build.ID);
         arrayAdapter.add("MANUFACTURER:" + Build.MANUFACTURER);
@@ -40,7 +40,7 @@ public class DeviceInfo extends Activity {
         arrayAdapter.add("TAGS:" + Build.TAGS);
         arrayAdapter.add("TIME:" + Build.TIME);
         arrayAdapter.add("TYPE:" + Build.TYPE);
-        arrayAdapter.add("UNKNOWN:" + Build.UNKNOWN); // Android 1.6未対応
+        arrayAdapter.add("UNKNOWN:" + Build.UNKNOWN); // Android 1.6 later
         arrayAdapter.add("USER:" + Build.USER);
         arrayAdapter.add("VERSION.CODENAME:" + Build.VERSION.CODENAME);
         arrayAdapter.add("VERSION.INCREMENTAL:" + Build.VERSION.INCREMENTAL);
