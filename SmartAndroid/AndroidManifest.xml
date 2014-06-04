@@ -26,6 +26,9 @@
         <activity
             android:name="com.iplus.smart.FeatureList"
             android:label="@string/feature_list" />
+        <activity
+            android:name="com.iplus.smart.DeviceInfo"
+            android:label="@string/device_info" />
         <activity android:name="com.iplus.smart.MainActivity" >
         </activity>
     </application>

@@ -7,5 +7,6 @@
 
     <!-- Activties -->
     <string name="feature_list">Feature List</string>
+    <string name="device_info">Device Information</string>
 
 </resources>
