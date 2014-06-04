@@ -37,46 +37,54 @@
             android:textColor="#fff" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:baselineAligned="false"
             android:orientation="horizontal" >
 
-            <TextView
-                android:id="@+id/app_size_label"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginRight="10dip"
-                android:layout_weight="1"
-                android:text="@string/application_list_item_size"
-                android:textColor="#fff" />
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
 
-            <TextView
-                android:id="@+id/app_size"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_weight="1"
-                android:textColor="#7f8c8d" />
+                <TextView
+                    android:id="@+id/app_size_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dip"
+                    android:text="@string/application_list_item_size"
+                    android:textColor="#fff" />
 
-            <TextView
-                android:id="@+id/app_ver_label"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginLeft="10dip"
-                android:layout_marginRight="10dip"
-                android:layout_weight="1"
-                android:text="@string/application_list_item_ver"
-                android:textColor="#fff" />
+                <TextView
+                    android:id="@+id/app_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#7f8c8d" />
+            </LinearLayout>
 
-            <TextView
-                android:id="@+id/app_ver"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_weight="1"
-                android:textColor="#7f8c8d" />
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/app_ver_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dip"
+                    android:text="@string/application_list_item_ver"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/app_ver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#7f8c8d" />
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
