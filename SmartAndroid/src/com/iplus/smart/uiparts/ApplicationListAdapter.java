@@ -4,6 +4,7 @@ package com.iplus.smart.uiparts;
 import java.util.List;
 
 import android.content.Context;
+import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,6 +33,12 @@ public class ApplicationListAdapter extends ArrayAdapter<AppInfo> {
         if (null == convertView) {
             convertView = layoutInflater_.inflate(R.layout.application_list_item, null);
         }
+
+        TextView app_size_label = (TextView) convertView.findViewById(R.id.app_size_label);
+        app_size_label.setTypeface(Typeface.create(Typeface.SERIF, Typeface.BOLD_ITALIC));
+
+        TextView app_ver_label = (TextView) convertView.findViewById(R.id.app_ver_label);
+        app_ver_label.setTypeface(Typeface.create(Typeface.SERIF, Typeface.BOLD_ITALIC));
 
         // CustomDataのデータをViewの各Widgetにセットする
         ImageView imageView = (ImageView) convertView.findViewById(R.id.image);

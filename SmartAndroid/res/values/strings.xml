@@ -11,7 +11,7 @@
     <string name="application_list">Application List</string>
 
     <!-- application_list_item -->
-    <string name="application_list_item_size"> Size: </string>
-    <string name="application_list_item_ver"> Ver: </string>
+    <string name="application_list_item_size">Size:</string>
+    <string name="application_list_item_ver">Ver:</string>
 
 </resources>
