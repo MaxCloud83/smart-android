@@ -9,6 +9,7 @@
     <string name="feature_list">Feature List</string>
     <string name="device_info">Device Information</string>
     <string name="application_list">Application List</string>
+    <string name="battery_info">Battery Information</string>
 
     <!-- application_list_item -->
     <string name="application_list_item_size">Size:</string>
