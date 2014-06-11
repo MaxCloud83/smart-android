@@ -1,6 +1,9 @@
 
 package com.iplus.smart;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -9,8 +12,10 @@ import android.content.IntentFilter;
 import android.os.BatteryManager;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.ArrayAdapter;
+import android.util.Pair;
 import android.widget.ListView;
+
+import com.iplus.smart.uiparts.NormalListAdapter;
 
 public class BatteryInfo extends Activity {
     private ListView batteryInfoListView = null;
@@ -124,20 +129,22 @@ public class BatteryInfo extends Activity {
                 Log.v("temperature", String.valueOf(temperature));
                 Log.v("technology", technology);
 
-                // create ArrayAdapter for listView
-                ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(self,
-                        android.R.layout.simple_list_item_1);
+                // set itemList
+                List<Pair<String, String>> itemList = new ArrayList<Pair<String, String>>();
 
-                arrayAdapter.add("STATUS:" + statusString);
-                arrayAdapter.add("HEALTH:" + healthString);
-                arrayAdapter.add("PRESENT:" + String.valueOf(present));
-                arrayAdapter.add("LEVEL:" + String.valueOf(level));
-                arrayAdapter.add("SCALE:" + String.valueOf(scale));
-                arrayAdapter.add("ICON_SMALL:" + String.valueOf(icon_small));
-                arrayAdapter.add("PLUGGED:" + acString);
-                arrayAdapter.add("VOLTAGE:" + String.valueOf(voltage));
-                arrayAdapter.add("TEMPERATURE:" + String.valueOf(temperature));
-                arrayAdapter.add("TECHNOLOGY:" + technology);
+                itemList.add(new Pair<String, String>("STATUS", statusString));
+                itemList.add(new Pair<String, String>("HEALTH", healthString));
+                itemList.add(new Pair<String, String>("PRESENT", String.valueOf(present)));
+                itemList.add(new Pair<String, String>("LEVEL", String.valueOf(level)));
+                itemList.add(new Pair<String, String>("SCALE", String.valueOf(scale)));
+                itemList.add(new Pair<String, String>("ICON_SMALL", String.valueOf(icon_small)));
+                itemList.add(new Pair<String, String>("PLUGGED", acString));
+                itemList.add(new Pair<String, String>("VOLTAGE", String.valueOf(voltage)));
+                itemList.add(new Pair<String, String>("TEMPERATURE", String.valueOf(temperature)));
+                itemList.add(new Pair<String, String>("TECHNOLOGY", technology));
+
+                // create ArrayAdapter for listView
+                NormalListAdapter arrayAdapter = new NormalListAdapter(self, 0, itemList);
 
                 self.batteryInfoListView.setAdapter(arrayAdapter);
                 self.batteryInfoListView.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
