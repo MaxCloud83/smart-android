@@ -11,6 +11,7 @@
     <string name="application_list">Application List</string>
     <string name="battery_info">Battery Information</string>
     <string name="sensors_info">Sensors Information</string>
+    <string name="vibrator">Vibrator</string>
 
     <!-- application_list_item -->
     <string name="application_list_item_size">Size:</string>
