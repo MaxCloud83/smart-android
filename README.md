@@ -7,4 +7,5 @@ I just want to achieve some useful features.
 * Get Application list installed in the Android Device  
 * Get Device Battery Information  
 * Get Device Sensors Information  
+* Vibrator Feature  
 * coming soon...
