@@ -57,6 +57,9 @@ public class FeatureList extends Activity {
                     case 2:
                         intent = new Intent(FeatureList.this, BatteryInfo.class);
                         break;
+                    case 3:
+                        intent = new Intent(FeatureList.this, SensorsInfo.class);
+                        break;
                 }
                 if (intent != null) {
                     startActivity(intent);

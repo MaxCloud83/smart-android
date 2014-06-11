@@ -2,10 +2,10 @@
 <resources>
 
     <array name="featureList">
-        <item>Show Devie Info</item>
+        <item>Show Devie Information</item>
         <item>Get Installed Application List</item>
         <item>Show Battery Status</item>
-        <item>come soon...</item>
+        <item>Show Sensors Information</item>
         <item>come soon...</item>
         <item>come soon...</item>
         <item>come soon...</item>

@@ -35,6 +35,9 @@
         <activity
             android:name="com.iplus.smart.BatteryInfo"
             android:label="@string/battery_info" />
+        <activity
+            android:name="com.iplus.smart.SensorsInfo"
+            android:label="@string/sensors_info" />
     </application>
 
 </manifest>
