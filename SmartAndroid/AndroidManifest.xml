@@ -74,6 +74,9 @@
             android:label="@string/hello_google_maps"
             android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
+        <activity
+            android:name="com.iplus.smart.AudioTone"
+            android:label="@string/audio_tone" />
         <!-- Google Mobile Ads activity. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

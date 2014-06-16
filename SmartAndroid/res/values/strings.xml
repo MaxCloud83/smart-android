@@ -13,6 +13,7 @@
     <string name="sensors_info">Sensors Information</string>
     <string name="vibrator">Vibrator</string>
     <string name="hello_google_maps">Hello Google Maps</string>
+    <string name="audio_tone">ToneGenerator</string>
 
     <!-- application_list_item -->
     <string name="application_list_item_size">Size:</string>

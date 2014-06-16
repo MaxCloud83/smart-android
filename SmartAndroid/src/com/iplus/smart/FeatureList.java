@@ -66,6 +66,9 @@ public class FeatureList extends Activity {
                     case 5:
                         intent = new Intent(FeatureList.this, HelloGoogleMaps.class);
                         break;
+                    case 6:
+                        intent = new Intent(FeatureList.this, AudioTone.class);
+                        break;
                 }
                 if (intent != null) {
                     startActivity(intent);
