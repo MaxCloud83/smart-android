@@ -28,8 +28,7 @@ proguard/
 *.iws
 .idea/
 
-Android Studio
-
+# Android Studio
 *.apk
 *.ap_
 *.dex
