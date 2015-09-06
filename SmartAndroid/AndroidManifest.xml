@@ -86,12 +86,6 @@
             android:label="@string/vibrator"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.iplus.smart.HelloGoogleMaps"
-            android:label="@string/hello_google_maps"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar" >
-        </activity>
-        <activity
             android:name="com.iplus.smart.AudioTone"
             android:label="@string/audio_tone"
             android:screenOrientation="portrait" />

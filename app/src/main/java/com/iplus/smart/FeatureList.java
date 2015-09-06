@@ -24,8 +24,7 @@ public class FeatureList extends Activity {
         this.featureListView = (ListView) findViewById(R.id.FeatureListView);
 
         // Create an ArrayAdapter that will contain all list items
-        String[] featuresArray = getResources().getStringArray(
-                R.array.featureList);
+        String[] featuresArray = getResources().getStringArray(R.array.featureList);
 
         /*
          * Assign the name array to that adapter and also choose a simple layout
@@ -64,9 +63,6 @@ public class FeatureList extends Activity {
                         intent = new Intent(FeatureList.this, VibratorActivity.class);
                         break;
                     case 5:
-                        intent = new Intent(FeatureList.this, HelloGoogleMaps.class);
-                        break;
-                    case 6:
                         intent = new Intent(FeatureList.this, AudioTone.class);
                         break;
                 }
