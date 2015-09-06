@@ -58,7 +58,7 @@ public class ApplicationList extends Activity {
                 } catch (NameNotFoundException e) {
                     // use SmartAndroid ICON
                     Bitmap smartAndroidIcon = BitmapFactory.decodeResource(r,
-                            R.drawable.ic_launcher);
+                            R.mipmap.ic_launcher);
                     model.appIcon = smartAndroidIcon;
                 }
 
