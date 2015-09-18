@@ -42,6 +42,35 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.iplus.smart.FeatureList"
+            android:label="@string/feature_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iplus.smart.DeviceInfo"
+            android:label="@string/device_info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iplus.smart.ApplicationList"
+            android:label="@string/application_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iplus.smart.BatteryInfo"
+            android:label="@string/battery_info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iplus.smart.SensorsInfo"
+            android:label="@string/sensors_info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iplus.smart.VibratorActivity"
+            android:label="@string/vibrator"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iplus.smart.AudioTone"
+            android:label="@string/audio_tone"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

@@ -16,18 +16,18 @@
         <dex dex="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/pre-dexed/debug/classes-c4f42bc05bb0bb44dbd3f58d09308b48a9b9f8f9.jar" />
     </item>
     <item
-        jar="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
-        <dex dex="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/pre-dexed/debug/classes-e9c3073203520c02dd6f2d23179bb1e0416884f9.jar" />
-    </item>
-    <item
         jar="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
         <dex dex="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-cee52ade5e7126398393cb5e2c7b8626f8f46fb8.jar" />
+    </item>
+    <item
+        jar="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/pre-dexed/debug/classes-e9c3073203520c02dd6f2d23179bb1e0416884f9.jar" />
     </item>
     <item
         jar="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.8.0/jars/classes.jar"
@@ -58,13 +58,6 @@
         <dex dex="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/pre-dexed/debug/classes-13fd4e7be66678be6ce273344259dfb5e8f8307f.jar" />
     </item>
     <item
-        jar="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
-        <dex dex="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/pre-dexed/debug/classes-dfe4f04de5ebad4e031b26dc3e8f40da45766d93.jar" />
-    </item>
-    <item
         jar="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
@@ -77,6 +70,13 @@
         revision="23.0.0"
         sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
         <dex dex="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/pre-dexed/debug/classes-c78a6157acd704b4b004bf915df0d99db7461bdc.jar" />
+    </item>
+    <item
+        jar="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/pre-dexed/debug/classes-dfe4f04de5ebad4e031b26dc3e8f40da45766d93.jar" />
     </item>
     <item
         jar="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.8.0/jars/classes.jar"
@@ -177,18 +177,18 @@
         <dex dex="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/pre-dexed/debug/classes-bfc2ebc7ef9c5114ed01f6fcf66cf9e69626a05d.jar" />
     </item>
     <item
-        jar="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
-        <dex dex="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-7b02e85a8d450ba1f7b7ffee1399bb73ede97259.jar" />
-    </item>
-    <item
         jar="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
         <dex dex="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/pre-dexed/debug/classes-584b42dcfb8c18effaead359f7cc2c610f16d2fe.jar" />
+    </item>
+    <item
+        jar="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Users/mountain/Documents/Github/smart-android/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-7b02e85a8d450ba1f7b7ffee1399bb73ede97259.jar" />
     </item>
 
 </items>
