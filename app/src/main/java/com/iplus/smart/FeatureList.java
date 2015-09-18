@@ -65,6 +65,8 @@ public class FeatureList extends Activity {
                     case 5:
                         intent = new Intent(FeatureList.this, AudioTone.class);
                         break;
+                    case 6:
+                        intent = new Intent(FeatureList.this, HttpClient.class);
                 }
                 if (intent != null) {
                     startActivity(intent);
